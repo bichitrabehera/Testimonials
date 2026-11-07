@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# local database + logs (demo data is generated on first run)
+/data/
+*.log
+
 # debug
 npm-debug.log*
 yarn-debug.log*
